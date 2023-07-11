@@ -94,6 +94,7 @@ class Gallery extends Component {
               key={eachItem.id}
               item={eachItem}
               onImage={this.onImage}
+              activeImageId={index}
             />
           ))}
         </ul>
